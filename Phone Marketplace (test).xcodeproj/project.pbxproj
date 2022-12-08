@@ -12,6 +12,7 @@
 		C0B40A592941F98E00A1FDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A582941F98E00A1FDFB /* ViewController.swift */; };
 		C0B40A5E2941F98F00A1FDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B40A5D2941F98F00A1FDFB /* Assets.xcassets */; };
 		C0B40A612941F98F00A1FDFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B40A5F2941F98F00A1FDFB /* LaunchScreen.storyboard */; };
+		C0B40A6A2941FD1000A1FDFB /* NYKit in Frameworks */ = {isa = PBXBuildFile; productRef = C0B40A692941FD1000A1FDFB /* NYKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B40A6A2941FD1000A1FDFB /* NYKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = "Phone Marketplace (test)";
+			packageProductDependencies = (
+				C0B40A692941FD1000A1FDFB /* NYKit */,
+			);
 			productName = "Phone Marketplace (test)";
 			productReference = C0B40A512941F98E00A1FDFB /* Phone Marketplace (test).app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = C0B40A482941F98E00A1FDFB;
+			packageReferences = (
+				C0B40A682941FD1000A1FDFB /* XCRemoteSwiftPackageReference "NYKit" */,
+			);
 			productRefGroup = C0B40A522941F98E00A1FDFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0B40A682941FD1000A1FDFB /* XCRemoteSwiftPackageReference "NYKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nodir-y/NYKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0B40A692941FD1000A1FDFB /* NYKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0B40A682941FD1000A1FDFB /* XCRemoteSwiftPackageReference "NYKit" */;
+			productName = NYKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C0B40A492941F98E00A1FDFB /* Project object */;
 }

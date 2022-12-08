@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "nyextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nodir-y/NYExtensions",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9ff58320bb5ababa27274e9127fad6950e5e86d8"
+      }
+    },
+    {
+      "identity" : "nykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nodir-y/NYKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1f06085b110242dbb0cd910cae0a1fbf248b21fc"
+      }
+    },
+    {
+      "identity" : "swiftvalidator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nodir-y/SwiftValidator",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e7b59704389c84ac36c409bd131a26142e478e8f"
+      }
+    }
+  ],
+  "version" : 2
+}
