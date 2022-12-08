@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06677332942669E00BB5B7E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06677322942669E00BB5B7E /* MainView.swift */; };
+		C066773629426FFE00BB5B7E /* MarkProBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C066773529426FFE00BB5B7E /* MarkProBold.ttf */; };
+		C06677382942701600BB5B7E /* MarkPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C06677372942701600BB5B7E /* MarkPro.ttf */; };
+		C066773A2942708800BB5B7E /* MarkProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C06677392942708800BB5B7E /* MarkProMedium.ttf */; };
+		C066773C294270C300BB5B7E /* MarkProHeavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C066773B294270C300BB5B7E /* MarkProHeavy.ttf */; };
+		C066773E294271B600BB5B7E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066773D294271B600BB5B7E /* Fonts.swift */; };
 		C0B40A552941F98E00A1FDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A542941F98E00A1FDFB /* AppDelegate.swift */; };
 		C0B40A572941F98E00A1FDFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A562941F98E00A1FDFB /* SceneDelegate.swift */; };
-		C0B40A592941F98E00A1FDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A582941F98E00A1FDFB /* ViewController.swift */; };
+		C0B40A592941F98E00A1FDFB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A582941F98E00A1FDFB /* MainController.swift */; };
 		C0B40A5E2941F98F00A1FDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B40A5D2941F98F00A1FDFB /* Assets.xcassets */; };
 		C0B40A612941F98F00A1FDFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B40A5F2941F98F00A1FDFB /* LaunchScreen.storyboard */; };
 		C0B40A6A2941FD1000A1FDFB /* NYKit in Frameworks */ = {isa = PBXBuildFile; productRef = C0B40A692941FD1000A1FDFB /* NYKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C06677322942669E00BB5B7E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C066773529426FFE00BB5B7E /* MarkProBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProBold.ttf; sourceTree = "<group>"; };
+		C06677372942701600BB5B7E /* MarkPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro.ttf; sourceTree = "<group>"; };
+		C06677392942708800BB5B7E /* MarkProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProMedium.ttf; sourceTree = "<group>"; };
+		C066773B294270C300BB5B7E /* MarkProHeavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProHeavy.ttf; sourceTree = "<group>"; };
+		C066773D294271B600BB5B7E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		C0B40A512941F98E00A1FDFB /* Phone Marketplace (test).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Marketplace (test).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B40A542941F98E00A1FDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B40A562941F98E00A1FDFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0B40A582941F98E00A1FDFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B40A582941F98E00A1FDFB /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		C0B40A5D2941F98F00A1FDFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B40A602941F98F00A1FDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B40A622941F98F00A1FDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C06677302942664C00BB5B7E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C0B40A582941F98E00A1FDFB /* MainController.swift */,
+				C06677322942669E00BB5B7E /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C066773429426FE300BB5B7E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C06677372942701600BB5B7E /* MarkPro.ttf */,
+				C06677392942708800BB5B7E /* MarkProMedium.ttf */,
+				C066773B294270C300BB5B7E /* MarkProHeavy.ttf */,
+				C066773529426FFE00BB5B7E /* MarkProBold.ttf */,
+				C066773D294271B600BB5B7E /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C0B40A482941F98E00A1FDFB = {
 			isa = PBXGroup;
 			children = (
@@ -56,14 +89,47 @@
 		C0B40A532941F98E00A1FDFB /* Phone Marketplace (test) */ = {
 			isa = PBXGroup;
 			children = (
+				C0B40A6B2942654A00A1FDFB /* App */,
+				C0B40A6E294265C800A1FDFB /* UI */,
+			);
+			path = "Phone Marketplace (test)";
+			sourceTree = "<group>";
+		};
+		C0B40A6B2942654A00A1FDFB /* App */ = {
+			isa = PBXGroup;
+			children = (
 				C0B40A542941F98E00A1FDFB /* AppDelegate.swift */,
 				C0B40A562941F98E00A1FDFB /* SceneDelegate.swift */,
-				C0B40A582941F98E00A1FDFB /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C0B40A6C2942657500A1FDFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C066773429426FE300BB5B7E /* Fonts */,
 				C0B40A5D2941F98F00A1FDFB /* Assets.xcassets */,
 				C0B40A5F2941F98F00A1FDFB /* LaunchScreen.storyboard */,
 				C0B40A622941F98F00A1FDFB /* Info.plist */,
 			);
-			path = "Phone Marketplace (test)";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0B40A6D2942659100A1FDFB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C06677302942664C00BB5B7E /* Main */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C0B40A6E294265C800A1FDFB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C0B40A6C2942657500A1FDFB /* Resources */,
+				C0B40A6D2942659100A1FDFB /* Sources */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06677382942701600BB5B7E /* MarkPro.ttf in Resources */,
+				C066773629426FFE00BB5B7E /* MarkProBold.ttf in Resources */,
+				C066773A2942708800BB5B7E /* MarkProMedium.ttf in Resources */,
+				C066773C294270C300BB5B7E /* MarkProHeavy.ttf in Resources */,
 				C0B40A612941F98F00A1FDFB /* LaunchScreen.storyboard in Resources */,
 				C0B40A5E2941F98F00A1FDFB /* Assets.xcassets in Resources */,
 			);
@@ -142,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B40A592941F98E00A1FDFB /* ViewController.swift in Sources */,
+				C0B40A592941F98E00A1FDFB /* MainController.swift in Sources */,
+				C066773E294271B600BB5B7E /* Fonts.swift in Sources */,
+				C06677332942669E00BB5B7E /* MainView.swift in Sources */,
 				C0B40A552941F98E00A1FDFB /* AppDelegate.swift in Sources */,
 				C0B40A572941F98E00A1FDFB /* SceneDelegate.swift in Sources */,
 			);
@@ -284,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Phone Marketplace (test)/Info.plist";
+				INFOPLIST_FILE = "Phone Marketplace (test)/UI/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -312,7 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Phone Marketplace (test)/Info.plist";
+				INFOPLIST_FILE = "Phone Marketplace (test)/UI/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";

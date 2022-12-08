@@ -7,6 +7,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="MarkProBold.ttf">
+            <string>MarkPro-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -20,8 +25,8 @@
                                 <rect key="frame" x="60" y="352" width="270" height="139"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ecommerce Concept" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llT-zb-sfV">
-                                <rect key="frame" x="158" y="354" width="163" height="137"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <rect key="frame" x="158" y="354" width="216" height="137"/>
+                                <fontDescription key="fontDescription" name="MarkPro-Bold" family="Mark Pro" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -29,10 +34,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0039215688589999999" green="0.0" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="llT-zb-sfV" secondAttribute="trailing" constant="16" id="2an-zF-2Q3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="llT-zb-sfV" secondAttribute="bottom" constant="319" id="5b2-LP-Prm"/>
                             <constraint firstItem="llT-zb-sfV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="CZg-aY-khr"/>
                             <constraint firstItem="FlQ-It-8zM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="Hni-3H-nwK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="llT-zb-sfV" secondAttribute="trailing" constant="69" id="IMn-u8-h3a"/>
                             <constraint firstItem="llT-zb-sfV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="307" id="N5V-OC-ADN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FlQ-It-8zM" secondAttribute="trailing" constant="60" id="QCY-Yz-02T"/>
                             <constraint firstItem="FlQ-It-8zM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="305" id="bPS-hj-Lpx"/>

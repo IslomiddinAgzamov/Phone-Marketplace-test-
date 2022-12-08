@@ -6,8 +6,16 @@
 //
 
 import UIKit
+import NYKit
 
-class ViewController: UIViewController {
+class MainController: NYViewController {
+    
+    let _view = MainView()
+    
+    override func loadView() {
+        super.loadView()
+        view = _view
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
