@@ -13,6 +13,8 @@
 		C066773A2942708800BB5B7E /* MarkProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C06677392942708800BB5B7E /* MarkProMedium.ttf */; };
 		C066773C294270C300BB5B7E /* MarkProHeavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C066773B294270C300BB5B7E /* MarkProHeavy.ttf */; };
 		C066773E294271B600BB5B7E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066773D294271B600BB5B7E /* Fonts.swift */; };
+		C06677412942789F00BB5B7E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06677402942789F00BB5B7E /* Colors.swift */; };
+		C066774429427B3200BB5B7E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066774329427B3200BB5B7E /* View.swift */; };
 		C0B40A552941F98E00A1FDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A542941F98E00A1FDFB /* AppDelegate.swift */; };
 		C0B40A572941F98E00A1FDFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A562941F98E00A1FDFB /* SceneDelegate.swift */; };
 		C0B40A592941F98E00A1FDFB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B40A582941F98E00A1FDFB /* MainController.swift */; };
@@ -28,6 +30,8 @@
 		C06677392942708800BB5B7E /* MarkProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProMedium.ttf; sourceTree = "<group>"; };
 		C066773B294270C300BB5B7E /* MarkProHeavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkProHeavy.ttf; sourceTree = "<group>"; };
 		C066773D294271B600BB5B7E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C06677402942789F00BB5B7E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C066774329427B3200BB5B7E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C0B40A512941F98E00A1FDFB /* Phone Marketplace (test).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Marketplace (test).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B40A542941F98E00A1FDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B40A562941F98E00A1FDFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		C066773F2942787B00BB5B7E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C06677402942789F00BB5B7E /* Colors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		C066774229427B1800BB5B7E /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				C066774329427B3200BB5B7E /* View.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
 		C0B40A482941F98E00A1FDFB = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +127,7 @@
 		C0B40A6C2942657500A1FDFB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C066773F2942787B00BB5B7E /* Theme */,
 				C066773429426FE300BB5B7E /* Fonts */,
 				C0B40A5D2941F98F00A1FDFB /* Assets.xcassets */,
 				C0B40A5F2941F98F00A1FDFB /* LaunchScreen.storyboard */,
@@ -118,6 +139,7 @@
 		C0B40A6D2942659100A1FDFB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C066774229427B1800BB5B7E /* Generic */,
 				C06677302942664C00BB5B7E /* Main */,
 			);
 			path = Sources;
@@ -213,9 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B40A592941F98E00A1FDFB /* MainController.swift in Sources */,
+				C06677412942789F00BB5B7E /* Colors.swift in Sources */,
 				C066773E294271B600BB5B7E /* Fonts.swift in Sources */,
 				C06677332942669E00BB5B7E /* MainView.swift in Sources */,
 				C0B40A552941F98E00A1FDFB /* AppDelegate.swift in Sources */,
+				C066774429427B3200BB5B7E /* View.swift in Sources */,
 				C0B40A572941F98E00A1FDFB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
